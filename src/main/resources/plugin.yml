@@ -1,0 +1,21 @@
+name: OfflinePlayers
+version: '1.0.0'
+main: OP.offlinePlayers.OfflinePlayers
+api-version: '1.21'
+description: Find offline players easily with a GUI
+author: Cobra4
+
+commands:
+  offlineplayers:
+    description: Opens the offline players GUI
+    usage: /<command>
+    aliases: [offline, offp]
+    permission: offlineplayers.use
+
+permissions:
+  offlineplayers.use:
+    description: Allows access to the offline players GUI
+    default: true
+  offlineplayers.admin:
+    description: Allows clicking on players for detailed info
+    default: op
